@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css" type="text/css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+  <title>Cat Game</title>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1><i class='fas fa-cat'></i> Don't let the cat out!<h1>
+  </div>
+  <div class="">
+    <div class="wineeer">
+      <h2 id="pickDoor">Chose a door...</h2>
+    </div>
+  </div>
+  <div class="cen">
+    <div class="text-row">
+      <div class="padddd">
+        <p id="text1">First Mysterious Door </p>
+
+      </div>
+      <div class="padddd">
+        <p id="text2">Second Mysterious Door</p>
+
+      </div>
+      <div class="padddd">
+        <p id="text3">Third Mysterious Door</p>
+
+      </div>
+    </div>
+  </div>
+
+<div class="door-row">
+
+    <!-- <p id=""></p> -->
+    <img id="door1" class="door-frame" src="https://i.ibb.co/7WS7sYW/closed-Door.png">
+
+
+    <!-- <p id=""></p> -->
+    <img id="door2" class="door-frame" src="https://i.ibb.co/7WS7sYW/closed-Door.png">
+
+
+    <!-- <p id=""></p> -->
+    <img id="door3" class="door-frame" src="https://i.ibb.co/7WS7sYW/closed-Door.png">
+
+</div>
+
+<div id="start" class="start-row"><i class="fa fa-play"></i> Good luck!</div>
+     <!-- TODO: insert bootstrap here -->
+<div class="center">
+
+  <div class="how-to-play">
+    <table class="instuctions-row">
+      <caption><p class="instructions-title"><i class="fa fa-star"></i> How to Play <i class="fa fa-star"></i></p></caption>
+     <tr>
+       <td class="instructions-number">
+         1
+       </td>
+       <td class="instructions-text">
+         Behind one of these doors my cat is locked.
+       </td>
+     </tr>
+
+     <tr>
+       <td class="instructions-number">
+         2
+       </td>
+       <td class="instructions-text">
+         Please don't let him out.
+       </td>
+     </tr>
+
+     <tr>
+       <td class="instructions-number">
+         3
+       </td>
+       <td class="instructions-text">
+         If he is behind the very last door, you win!!1
+       </td>
+     </tr>
+
+     <tr>
+       <td class="instructions-number">
+         4
+       </td>
+       <td class="instructions-text">
+         Try to get a high score!
+       </td>
+     </tr>
+   </table>
+  </div>
+
+
+
+ <div class="the-score">
+   <table class="instuctions-row">
+     <caption><p class="instructions-title"><i class="fa fa-bolt"></i> Score Board <i class="fa fa-bolt"></i></p></caption>
+     <tr>
+
+       <td class="instructions-text">Total Wins</td>
+       <td id="num-win" class="instructions-number">0</td>
+     </tr>
+     <tr>
+       <td class="instructions-text">Total Losses</td>
+       <td id="num-lost" class="instructions-number">0</td>
+
+     </tr>
+     <tr>
+       <td class="instructions-text">Current Streak</td>
+       <td id="num-c-str" class="instructions-number">0</td>
+
+     </tr>
+     <tr>
+       <td class="instructions-text">Best Streak</td>
+       <td id="num-b-str" class="instructions-number">0</td>
+
+     </tr>
+
+   </table>
+ </div>
+</div>
+
+
+
+
+<footer>
+  <p>by Mocanu Sebastian</p>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>

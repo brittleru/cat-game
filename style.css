@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+body {
+  background-color: #393e46;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  background-color: #222831;
+  text-align: center;
+  padding: 10px;
+}
+.header h1 {
+  margin: auto;
+  padding: 0;
+  color: #eeeeee;
+}
+.wineeer {
+  padding: 20px;
+  text-align: center;
+  color: #eeeeee;
+  width: 20%;
+  margin: auto;
+}
+.center {
+  margin: 0 auto;
+  width: 50%;
+  padding-left: 170px;
+}
+.title-row {
+  margin-top: 42px;
+  margin-bottom: 21px;
+  text-align: center;
+}
+.instructions-title {
+  display: inline;
+  font-size: 18px;
+  color: #00adb5;
+
+}
+.insturctions-row {
+  margin: 0 auto;
+  width: 400px;
+  // text-align: center;
+}
+.instructions-number {
+  padding-right: 25px;
+  padding-left: 25px;
+  font-size: 30px;
+  color: #00adb5;
+}
+.instructions-text {
+  padding: 10px;
+  font-size: 14px;
+  color: #eeeeee;
+}
+
+.the-score {
+  display: inline-flex;
+  border-left: 5px solid #00adb5;
+}
+.how-to-play {
+  display: inline-flex;
+}
+
+#num-wins, #num-lost, #num-c-str, #num-b-str {
+
+}
+
+.door-row {
+ text-align: center;
+
+}
+.door-frame {
+  cursor: pointer;
+  padding: 10px;
+  height: 250px;
+  width: auto;
+}
+.cen {
+  text-align: center;
+}
+.text-row{
+
+  display: inline-flex;
+  align-items: center;
+  margin-left: auto;
+
+}
+#text1, #text2, #text3 {
+  align-items: center;
+  width: 120px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14px;
+  /* border: 1px solid red; */
+}
+.padddd {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.start-row {
+  margin: auto;
+  width: 150px;
+  height: 43px;
+  background-color: #00adb5;
+  padding-top: 18px;
+  font-size: 18px;
+  text-align: center;
+  color: #222;
+  margin-bottom: 21px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+footer {
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  text-align: center;
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+#pickDoor {
+  border: 2px solid #00adb5;
+  border-radius: 20px;
+}
+.green-text {
+  color: #39FF14;
+  text-shadow: 0.5px 0.5px #31b43a;
+}
+.red-text {
+  color: #ff073a;
+  text-shadow: 0.5px 0.5px #d01115;
+}
+.green-glow {
+  border-bottom: 4px solid #4dcc7d;
+  box-shadow: 0 0 10px #31b43a;
+}
+.red-glow {
+  border-bottom: 4px solid #fc121b;
+  box-shadow: 0 0 10px #d01115;
+}
+@media (max-width: 992px) {
+  footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .wineeer {
+    padding: 20px;
+    text-align: center;
+    color: #eeeeee;
+    width: 50%;
+    margin: auto;
+  }
+  .instructions-row {
+    /* display: inline-flex; */
+  }
+  .the-score {
+    /* display: inline-flex; */
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+  }
+  .center {
+    padding-left: 70px;
+  }
+  /* TODO: add media query */
+
+}
+@media (max-width: 768px) {
+  footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .wineeer {
+    padding: 20px;
+    text-align: center;
+    color: #eeeeee;
+    width: 50%;
+    margin: auto;
+  }
+  .the-score {
+    border: none;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+  .center {
+    padding-left: 0px;
+  }
+  /* .padddd {
+    visibility: hidden;
+  } */
+  /* TODO: add media query */
+
+}
+@media (max-width: 576px) {
+  footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+  }
+  .wineeer {
+    padding: 20px;
+    text-align: center;
+    color: #eeeeee;
+    width: 50%;
+    margin: auto;
+  }
+  .the-score {
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+  }
+  .center {
+    padding-left: 0px;
+  }
+  .header {
+    width: auto;
+  }
+  .padddd {
+    visibility: hidden;
+  }
+  /* TODO: add media query */
+
+}
